@@ -1,0 +1,171 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'yw';
+	src:url('yw.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'icon-login';
+	src: url('fonts-login/icomoon.eot');
+	src: url('fonts-login/icomoon.eot?#iefix') format('embedded-opentype'),
+		 url('fonts-login/icomoon.woff') format('woff'),
+		 url('fonts-login/icomoon.ttf') format('truetype'),
+		 url('fonts-login/icomoon.svg#icon-login') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+#overlay{
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 650px;
+	background:rgba(0,0,0,0.9) none repeat scroll !important;
+	z-index: 300;
+}
+.overlayBox{
+	margin: 120px auto;
+	width: 300px;
+	height: 420px;
+	background-color: #FFFFFF;
+	position: relative;
+	border-radius: 5px;
+	z-index: 300;
+}
+.overlay_icon{
+	font-family: "icon-login";
+	font-style: normal;
+	color: #959595;
+	font-size: 18px;
+	float: right;
+}
+.overlay_close{
+	margin-top: 10px;
+	margin-right: 10px;
+	cursor: default;
+	font-size: 20px;
+}
+.overlay_close:hover{
+	color: #4D4D4D;
+}
+.join{
+	position: absolute;
+	font-family: "yw";
+	font-size: 28px;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	margin-top: 30px;
+}
+.overlayTab{
+	cursor: pointer;
+	position: absolute;
+	width: 300px;
+	height: 30px;
+	left: 80px;
+	top: 80px;
+}
+.overlay_tab{
+	width: 80px;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+}
+.default_active{
+	border-bottom: 2px solid #3283B0;
+}
+.inputBox{
+	position: absolute;
+	top: 150px;
+}
+input{
+	padding-left: 10px;
+	float: left;
+	clear: both;
+	margin-left:43px;
+	width: 200px;
+	height: 38px;
+	display: block;
+	margin-top: -1px;
+}
+input:focus{
+	outline: none;
+}
+.overlay_button{
+	clear: both;
+	cursor:default;
+	display:block;
+	text-align: center;
+	cursor: pointer;
+	margin-left: 43px;
+	position: relative;
+	top: 25px;
+	height: 38px;
+	width: 213px;
+	background-color: #3283B0;
+	color: #FFFFFF;
+	line-height: 38px;
+	border-radius: 3px;
+}
+.social{
+	position: relative;
+	top: 380px;
+	width: 100%;
+}
+.social li{
+	float: right;
+	margin-right: 10px;
+	display: inline-block;
+	cursor: default;
+}
+.social span{
+	float: right;
+	font-size: 6px;
+	margin-right: 15px;
+	color: #959595;
+}
+.wechat:hover{
+	color: #84D215;
+}
+.QQ:hover{
+	color: #2090EB;
+}
+.weibo:hover{
+	color: #F16C6C;
+}
+.remember{
+	margin-top: 10px;
+	float: left;
+	margin-left: 40px;
+}
+#remember{
+	width: 13px;
+	height: 13px;
+}
+.checkbox{
+	font-size: 12px;
+	display: inline-block;
+	line-height: 1.5;
+}
+.checkbox input[type=checkbox]{
+	float: left;
+	margin:3px; 
+}
+.forget{
+	font-size: 13px;
+	margin-left: 105px;
+	color: #2C3E50;
+	cursor: pointer;
+}
+.overlay_button:hover{
+	background-color: #005F89;
+}
+/*.dou{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 165px;
+	left: 40px;
+}
+*/

@@ -1,0 +1,115 @@
+@charset "utf-8";
+#dic_wrap{
+    font-family: "KaiTi_GB2312","楷体";
+    position: absolute;
+    top:0;
+    left: 0;
+    font-size: 16px;
+    font-weight: 1px;
+    background-color:#fdfcfa;
+    width: 250px;
+    height: 350px;
+    border: 1px solid #bbbab9;
+    text-align: left;
+    line-height: 1.6em;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+#dic_wrap ul li{
+     list-style-type:none;
+}
+#dic_panel{
+    background-color:#fdfcfa;
+    height: 20px;
+    width: 247px;
+    z-index: 4;
+}
+#dic_panel dt{
+    background-color:#fdfcfa;
+    width: 20px;
+    height: 20px;
+    float: right;
+
+}
+#dic_panel dt::after {
+    content: "x";
+    font-size: 20px;;
+}
+#dic_main{
+    position: absolute;
+    width: 250px;
+    background-color:#fdfcfa;
+}
+#dic_tab{
+    background-color:#fdfcfa;
+    float: left;
+}
+#dic_tab dt{
+    cursor:pointer;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    /*文字圆形边框*/
+    padding: 1px;
+    border: 1px solid #7e7e7d;;
+    border-radius: 15px;
+    margin: 8px 5px;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.dic_content{
+    float: right;
+    width: 190px;
+    height: 280px;
+    background-color:#fdfcfa;
+    padding: 0 10px 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#content_basic dl,.explain{
+    padding-bottom: 15px;
+}
+#content_detail,#content_kx,#content_swjz{
+    display: none;
+}
+.py{
+    text-align: center;
+    width: 185px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    background-color:#fdfcfa;
+    padding-bottom: 10px;
+}
+.nature{
+    font-weight;
+    padding: 5px 0;
+}
+
+#content_kx,#content_swjz{
+    padding-top: 15px;
+}
+
+/*滚动条样式*/
+::-webkit-scrollbar{
+    width:3px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color:#FFFFFF;
+}
+::-webkit-scrollbar-thumb{
+    /*background-color:#000000;*/
+    background-color: #243142;
+    border-radius:10px;
+    opacity: 0.5;
+}
+@font-face {
+    font-family: 'dongqing';
+    src: url('dongqing.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}

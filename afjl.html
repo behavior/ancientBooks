@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Examples</title>
+        <style type="text/css">
+        html,body{margin:0;padding:0;font-size:12px;}
+        .foot,.head{height:200px;background-color: #ccc;text-align: center;}
+        .debug{position:fixed;left:0;top:0;background-color:#ddd;width:50px;height:50px;}
+        </style>
+</head>
+<body>
+    <div class="debug" id="debug"></div>
+    <div class="head">
+    头部
+    </div>
+    <h1>标题</h1><h2>副标题</h2>
+    <div class="content" id="content">
+    很多正文内容<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多<br />多
+    </div>
+    <div class="foot">
+        底部
+    </div>
+</body>
+<script type="text/javascript">
+    (function(){
+        var Scroller={
+             //添加事件句柄
+            bindEvent:function(id,type,fn){
+                var me = this;
+                var node = me.getById(id);
+                if(node){
+                    if(node.attachEvent){
+                        node.attachEvent('on'+type,fn);
+                    }else{
+                        node.addEventListener(type,fn);
+                    }
+                }
+            },
+
+            getById:function(id){
+                //
+                return typeof id=='object'?id:document.getElementById(id);
+            },
+            
+            getViewHeight:function(){
+                //视口长度和网页长度 取小
+                return Math.min(document.documentElement.clientHeight,document.body.clientHeight);
+            },
+
+            getScrollTop:function(){
+                //document.documentElement.scrollTop恒为0；取滚动距离;
+                return Math.max(document.documentElement.scrollTop,document.body.scrollTop);
+            },
+
+            //获取元素的距视口顶部的距离，和元素的长度；
+            getBound:function(id){
+                var node = this.getById(id);
+                if(node.getBoundingClientRect){
+                    var rect = node.getBoundingClientRect();
+                    return {
+                        //y保持固定值，即元素原始状态的top值；
+                        y:rect.top + this.getScrollTop(),
+                        height:node.offsetHeight,
+                        r:node.offsetTop
+                    }
+                }
+            },
+
+           
+
+            //获取文本长度 文本长度-视口长度
+            start:function(){
+                var me=this;
+                var rect = me.getBound('content');
+                var vh=me.getViewHeight();
+                //文本长度-视口长度
+                var refHeight=rect.height-vh;
+                var debug = me.getById('debug');
+                me.bindEvent(window,'scroll',function(e){
+                    var stop = me.getScrollTop();
+                    console.log(rect.y,rect.r);
+                    //(滚动距离-文本的top值)/文本剩余的长度
+                    var p = (stop-rect.y)/refHeight;
+                    if(p>=0&&p<=1){
+                        debug.innerHTML=(p*100).toFixed(2)+'%';
+                    }else if(p<0){
+                        debug.innerHTML='0%';
+                    }else{
+                        debug.innerHTML='100%';
+                    }
+                });
+                me.bindEvent(window,'resize',function(){
+                    vh=me.getViewHeight();
+                    refHeight=rect.height-vh;
+                });
+            }
+        };
+        Scroller.start();
+    })();
+</script>
+</html>

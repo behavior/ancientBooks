@@ -1,0 +1,590 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"length"
+			],
+			[
+				"ch",
+				"childNodes"
+			],
+			[
+				"contetn",
+				"content〔variable〕"
+			],
+			[
+				"c",
+				"contains	.contains()"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"ge",
+				"getPosition"
+			],
+			[
+				"coss",
+				"console.log(message);"
+			],
+			[
+				"pos",
+				"positions"
+			],
+			[
+				"posi",
+				"positions"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"content",
+				"content〔variable〕"
+			],
+			[
+				"conten",
+				"content〔variable〕"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"in",
+				"innerText"
+			],
+			[
+				"chi",
+				"childNodes"
+			],
+			[
+				"ins",
+				"insertBefore	.insertBefore()"
+			],
+			[
+				"chil",
+				"children"
+			],
+			[
+				"contt",
+				"content〔variable〕"
+			],
+			[
+				"console",
+				"console.log(message);"
+			],
+			[
+				"con",
+				"container〔argument〕"
+			],
+			[
+				"conte",
+				"content〔variable〕"
+			],
+			[
+				"contai",
+				"container〔argument〕"
+			],
+			[
+				"sp",
+				"spans"
+			],
+			[
+				"po",
+				"positions"
+			],
+			[
+				"inner",
+				"innerText"
+			],
+			[
+				"me",
+				"menu_blk"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"node",
+				"nodeValue"
+			],
+			[
+				"di",
+				"dictionary"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"s",
+				"span"
+			],
+			[
+				"nod",
+				"nodeValue"
+			],
+			[
+				"no",
+				"nodeValue"
+			],
+			[
+				"g",
+				"getElementsByTagName〔function〕"
+			],
+			[
+				"typ",
+				"typeof〔keyword〕"
+			],
+			[
+				"ex",
+				"explain"
+			],
+			[
+				"w",
+				"words"
+			],
+			[
+				"r",
+				"readPage"
+			],
+			[
+				"b",
+				"black"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"bl",
+				"blk"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"m",
+				"menu_icon"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"sc",
+				"scroll"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"win",
+				"window"
+			],
+			[
+				"of",
+				"offset"
+			],
+			[
+				"CA",
+				"cataLeft"
+			],
+			[
+				"ca",
+				"cataHeight"
+			],
+			[
+				"off",
+				"offsetLeft"
+			],
+			[
+				"p-l",
+				"padding-left"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"ne",
+				"newDiv"
+			],
+			[
+				"get",
+				"getElementById"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package i",
+		"selected_items":
+		[
+			[
+				"package i",
+				"Package Control: Install Package"
+			],
+			[
+				"package r",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"r",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"rmo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pakage control:in",
+				"Package Control: Install Package"
+			],
+			[
+				"pakage control",
+				"Preferences: Package Control Settings – Default"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib2,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/projects/ancientBooks/readpage.html",
+		"/E/projects/ancientBooks/ancientBooks.css",
+		"/E/projects/ancientBooks/readPage.css",
+		"/C/Users/Administrator/react-demos/demo02/index.html",
+		"/E/projects/ancientBooks/index.js",
+		"/E/projects/ancientBooks/ajax.js",
+		"/C/Users/Administrator/react-demos/demo01/index.html",
+		"/C/Users/Administrator/react-demos/demo01/RN1.html",
+		"/E/projects/ancientBooks/dictionary.js",
+		"/E/projects/ancientBooks/readPage.js",
+		"/C/Users/Administrator/react-demos/demo01/rn1",
+		"/E/projects/dictionary/index.js",
+		"/E/projects/dictionary/demo/WebPage.html",
+		"/E/projects/dictionary/server.js",
+		"/E/projects/dictionary/demo/dictionary.css",
+		"/E/projects/dictionary/ajax.js",
+		"/E/projects/dictionary/demo/dictionary.html",
+		"/E/projects/ancientBooks/readpage.css",
+		"/E/mycode/源码/event/js/script.js",
+		"/E/mycode/源码/event/js/event.js",
+		"/E/projects/dictionary/demo/dictionary.js",
+		"/E/mycode/固定边栏滚动-jq.htm",
+		"/E/mycode/sfd.html",
+		"/E/main.js",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/E/projects/dictionary/demo/explain.css"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"console",
+			"positions",
+			"p",
+			"getWordPosition",
+			"console",
+			"i",
+			" {",
+			"i",
+			"console",
+			"getWordPosition",
+			"console",
+			"getPosition",
+			"多蝮虫",
+			"多腹虫",
+			"explain",
+			"b",
+			"B",
+			"b",
+			"B",
+			"b",
+			"B",
+			"b",
+			"B",
+			"b",
+			"getWordPosition",
+			"a[j]",
+			"j",
+			");\n",
+			"console",
+			"childNodes",
+			"P",
+			"p",
+			"P",
+			"p",
+			"getWordPosition",
+			"	\n",
+			"8081",
+			"word",
+			"timer",
+			"url",
+			");\n",
+			"judge"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "readpage.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 154.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
